@@ -1,0 +1,25 @@
+---
+title: "Congyang's Web page"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: journal
+  
+---
+
+
+## Me everyday
+
++ ![Mood](IMG_0050.JPG) 
++ ![Me seeing my exam scores](IMG_8422.GIF)
+
+## Here is my resume
+
++ [My Resume](https://www.linkedin.com/in/congyang-xie-bb521b191/)
+
+## Here is my LinkedIn page
+
++ [My LinkedIn](https://www.linkedin.com/in/congyang-xie-bb521b191/)
+
+## Plotly page for P8105 home work
