@@ -11,8 +11,8 @@ output:
 
 ## Me everyday
 
-+ ![Mood](IMG_0050.JPG) 
-+ ![Me seeing my exam scores](IMG_8422.GIF)
++ ![Mood](pictures/IMG_0050.JPG) 
++ ![Me seeing my exam scores](pictures/IMG_8422.GIF)
 
 ## Here is my resume
 
@@ -23,3 +23,5 @@ output:
 + [My LinkedIn](https://www.linkedin.com/in/congyang-xie-bb521b191/)
 
 ## Plotly page for P8105 home work
+
++ [Plotly]
