@@ -30,7 +30,7 @@ ny_noaa <-
 
 ```
 
-# examples of plotly
+# NY_noaa
 
 Column {data-width=650}
 
