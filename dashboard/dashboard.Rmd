@@ -1,0 +1,88 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(p8105.datasets)
+library(tidyverse)
+library(plotly)
+library(lubridate, warn.conflicts = FALSE)
+```
+
+
+
+```{r include=FALSE}
+data("ny_noaa")
+
+ny_noaa <-
+  ny_noaa %>%
+  mutate(year = year(date),
+         month = month(date),
+         day = day(date)) %>%
+  select(-date) %>% 
+  relocate(year, month, day)
+
+```
+
+# examples of plotly
+
+Column {data-width=650}
+
+-----------------------------------------------------------------------
+
+## scatterplot
+
+```{r}
+ny_noaa %>%
+  group_by(year, id) %>%
+  summarize(snow_sum = sum(snow, na.rm = T),
+            depth_sum = sum(snwd, na.rm = T)) %>%
+  drop_na() %>%
+  plot_ly(
+    x = ~ snow_sum,
+    y = ~ depth_sum,
+    type = "scatter",
+    alpha = 0.5,
+    color = ~ year
+  )
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+
+## boxplot
+
+```{r}
+
+ny_noaa %>%
+  group_by(id, year) %>%
+  summarize(snow_sum = sum(snow, na.rm = T),
+            sum_depth = sum(snwd, na.rm = T)) %>%
+  plot_ly(
+    x = ~ year,
+    y = ~ snow_sum,
+    type = "box"
+  )
+
+```
+
+## bar plot
+
+```{r}
+ny_noaa %>%
+  group_by(year) %>%
+  summarise(snow_avg = mean(snow, na.rm = T)) %>%
+  plot_ly(
+    x = ~ year,
+    y = ~ snow_avg,
+    type = "bar",
+    color = ~ year
+  )
+```

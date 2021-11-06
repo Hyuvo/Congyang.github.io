@@ -16,12 +16,8 @@ output:
 
 ## Here is my resume
 
-+ [My Resume](https://www.linkedin.com/in/congyang-xie-bb521b191/)
++ [My Resume](CV/CV.html)
 
 ## Here is my LinkedIn page
 
 + [My LinkedIn](https://www.linkedin.com/in/congyang-xie-bb521b191/)
-
-## Plotly page for P8105 home work
-
-+ [Plotly]

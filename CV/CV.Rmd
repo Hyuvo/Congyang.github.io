@@ -1,0 +1,106 @@
+---
+title: CV
+name: Congyang
+surname: Xie
+address: "Mailman School of Public Health, Columbia University"
+position: MS student in Biostatistics
+phone: +1 646 339 0579
+email: "cx2257@cumc.columbia.edu"
+github: Hyuvo
+linkedin: Congyang Xie
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "A MS student in Biostatistics struggling everyday"
+output: 
+  vitae::markdowncv:
+    theme: kjhealy
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+## EDUCATION
+
+**Columbia University Mailman School of Public Health**  New York, NY 
+
+Master of Science Student in Biostatistics  2023 (Expected)
+
+**Dalian University of Technology**  Liaoning, China
+
+Bachelor of Science in Bioinformatics	 Jun. 2020
+
+**GPA**: 3.56/4.0 (Top 15% ranking in department, Wes evaluated)
+
+**Coursework**: Biochemistry, Data Structure and Algorithm, Java and OOP, Perl Programming, R Programming, C Programming, Computer Network, Bioinformatics, Biostatistics
+
+**Awards**: Social Practice Award, Learning Excellence Award, Community Contribution Award, Merit Student
+
+**Competitions**: GMCA Certificate Authority Cup International Mathematical Contest in Modeling (Honorable Mention), 26th DMS College Student Mathematics Competition (Third Prize)
+
+## WORK EXPERIENCE
+
+**Pfizer China R&D Center**  
+(Contracted to Pfizer from Wuxi Clinical), Shanghai, China
+
+*Junior Associate, Database Analyst*	Sept. 2020 - Jun. 2021
+
+Collaborated with a cross-functional study team to create data capture solutions that support the quality and timely delivery of EDC required per standard and study specific data review plans.
+
+## RESEARCH & PROJECT EXPERIENCE
+
+**MOE Key Laboratory of Bioinformatics, Tsinghua University** 
+Beijing, China      
+
+*Prediction of Ribosome Stalling Sites by Analysis of Ribosome Profiling Data* 	Jul.- Aug. 2019/ Dec. 2019 - Jan. 2020
+
+Compiled statistics of 377 RNA sequencing data samples on GEO
+
+Filtered samples based on RNA input and expression level; calculated depth of RNA-seq and ribosome-seq samples on each transcriptome site; merged by treatment condition; retrieved sites of the longest transcripts; calculated the coverage of CDS area
+
+Normalized the RNA-seq and ribosome-seq data to the same scale; drew the depth graph of chosen transcripts by R
+
+Detected peaks in ribosome profiling mapped density data; compared match rate of detecting methods through python
+
+
+*Ribosome Profiling Data Processing*	          Mar. 2019- Apr. 2019
+
+Assisted 2 PhD students in processing ribosome profiling samples, including quality control, cut adapter, filtered rRNA, mapped to the genome and transcriptome
+
+
+
+**Dalian University of Technology**  
+
+*Bioinformatics Practical Experiments* Apr. 2019- Jun. 2019
+
+Conducted protein homology modeling and key amino acid analysis using Swiss-Model and Discovery Studio
+
+Assembled microbial genome (JCM9966) by SOPAdenovo and annotated genome by prodical
+
+Analyzed ChIP-seq data of a FoxA1 sample; annotated peaks and pathway enrichment analysis with chipseeker 
+
+Analyzed RNA-seq data; mapped with hista2; sorted and built index using Samtools; counted reads through htseq; analyzed differential expression with DESeq2 (R package); enriched pathway by metascape
+
+*Activation and Individual Difference Analysis of Glycyrrhizin Metabolism in Human Intestinal Flora*		Oct. 2018- Apr. 2019
+
+Searched for the metabolism pathway of glycyrrhizin, determined the key enzyme and retrieved its gene sequence from NCBI
+
+Built index and mapped to IGC reference by using Blast on Linux and retrieved its IGC gene name and built simultaneous equations
+
+Built a visualization of the gene expression abundance matrix in R language to conclude medical guidance
+
+## EXTRACURRICULAR ACTIVITIES
+
+**Female Student Rights Department of Student Union, DUT**	
+*Deputy Minister*	Sept. 2017 – Jun. 2018
+
+Planned activities like Girls’ Day; supervised article-writing activities
+
+Assisted with operating the department’s official WeChat account; wrote articles to promote campus activities
+
+## SKILLS
+
+**Languages**: Mandarin Chinese (native), English (TOEFL 102)
+
+**Skills**: Linux (basic), R, Java, Perl, Python, SQL
+
